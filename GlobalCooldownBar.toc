@@ -1,0 +1,14 @@
+## Interface: 100000
+## Title: Cooldown Bar Global
+## Name: Cooldown Bar Global
+## Author: Neural Games (new) -- Radagast7 (original creator)
+## Notes: A customizable bar to track the global cooldown.
+## Version: 2.0
+## SavedVariables: CooldownBarGlobalDB
+## X-Curse-Packaged-Version: v2.0
+## X-Curse-Project-Name: Cooldown Bar Global
+## X-Curse-Project-ID: cooldown-bar-global
+## X-Curse-Repository-ID: wow/cooldown-bar-global/mainline
+
+libs.xml
+CooldownBarGlobal.lua
