@@ -277,17 +277,17 @@ function CooldownBarGlobal:OnInitialize()
 	self.db.RegisterCallback(self, "OnProfileReset", "OnProfileChanged")
 
 	-- And register the options
-	LibStub("AceConfig-3.0"):RegisterOptionsTable("Global Cooldown Bar", options, "gcdbar");
+	LibStub("AceConfig-3.0"):RegisterOptionsTable("Cooldown Bar Global", options, "cdgbar");
 
 	-- And add the options table to the actual interface UI
-	aceConfigDialog:AddToBlizOptions("Global Cooldown Bar", nil, nil, "general")
-	aceConfigDialog:AddToBlizOptions("Global Cooldown Bar", "Profiles", "Global Cooldown Bar", "profile")
+	aceConfigDialog:AddToBlizOptions("Cooldown Bar Global", nil, nil, "general")
+	aceConfigDialog:AddToBlizOptions("Cooldown Bar Global", "Profiles", "Cooldown Bar Global", "profile")
 
 	-- Add the event
 	CooldownBarGlobal:RegisterEvent("ACTIONBAR_UPDATE_COOLDOWN")
 
 	-- Get meta data to output version number
-	print("Global Cooldown Bar v" .. GetAddOnMetadata(CooldownBarGlobal:GetName(), "Version") .. " loaded");
+	print("Cooldown Bar Global v" .. GetAddOnMetadata(CooldownBarGlobal:GetName(), "Version") .. " loaded");
 end
 
 function CooldownBarGlobal:SetupFrame()
