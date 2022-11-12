@@ -2,8 +2,8 @@
 local CooldownBarGlobal = LibStub("AceAddon-3.0"):NewAddon("CooldownBarGlobal", "AceEvent-3.0")
 
 -- Lib stubs
-local media = LibStub("LibSharedMedia-3.0")
 local aceConfigDialog = LibStub("AceConfigDialog-3.0")
+local media = LibStub("LibSharedMedia-3.0")
 
 -- Defaults for CooldownBarGlobalDB
 local defaults =
