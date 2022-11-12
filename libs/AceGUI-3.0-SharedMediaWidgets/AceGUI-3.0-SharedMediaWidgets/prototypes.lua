@@ -11,7 +11,7 @@ if not AGSMW then
   return	-- already loaded and no upgrade necessary
 end
 
-local AceGUI = LibStub("AceGUI-3.0")
+--local AceGUI = LibStub("AceGUI-3.0")
 local Media = LibStub("LibSharedMedia-3.0")
 
 AGSMW = AGSMW or {}
